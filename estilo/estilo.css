@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap');
+
+:root{
+    --corprimaria: #222831;
+    --corsecundaria:#EEEEEE;
+    --corterciaria:#00ADB5;
+    --corhover: #393E46;
+
+    --tituloprimaria:'Krona One', sans-serif;
+    --titulosecundario:'Montserrat', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    box-sizing: border-box;
+    background-color: var(--corprimaria);
+    color: var(--corsecundaria);
+
+}
+.cabecalho {
+    padding: 5% 0% 0% 15%;
+}
+.cabecalho_curriculo {
+    padding: 5% 0% 0% 15%;
+    background-color: var(--corterciaria);
+}
+
+.cabecalho_menu {
+    display: flex;
+    gap: 80px;
+}
+.cabecalho_menu_link {
+    font-family: var(--titulosecundario);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--corsecundaria);
+    text-decoration: none;
+
+
+}
+.apt_curriculo{
+    padding: 5% 15%;
+    display: grid;
+    justify-items: center;
+    row-gap: 50px;
+}
+
+.apt{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tituloD {
+    color:var(--corterciaria);
+    
+}
+
+.img_eu{
+    width: 33%;
+    border-radius: 50%
+    
+}
+.img_eu_curriculo{
+    width: 20%;
+    border-radius: 50%;
+    
+    
+   
+    
+}
+
+.apt_cont {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.apt_cont_titulo {
+    font-size: 36px;
+    font-family: var(--tituloprimaria);
+   
+    
+}
+.apt_cont_h2 {
+    font-size: 20px;
+    font-family: var(--tituloprimaria);
+   
+    
+}
+
+.apt_cont_texto {
+    font-size: 24px;
+    font-family: var(--titulosecundario);
+
+}
+.apt_link {
+    display: grid;
+    row-gap: 10px;
+}
+.apt_links_subtitulo {
+    font-family: var(--tituloprimaria);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.apt_links_link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border:2px solid var(--corterciaria);
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    padding : 21.5px 0;
+    text-decoration: none;
+    color: var(--corsecundaria);
+    font-family: var(--titulosecundario);
+    font-weight: 600;
+
+}
+.apt_links_link:hover {
+    background-color:var(--corhover);
+}
+
+.apt_cont_contato{
+    color: var(--corterciaria);
+    text-decoration: none;
+}
+
+.apt_cont_contato:hover {
+    background-color:var(--corhover);
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    font-family: var(--titulosecundario);
+    padding: 20px;
+    text-align: start;
+    color: var(--corprimaria);
+    background-color: var(--corterciaria);
+    gap: 10px;
+}
+.apt_footer_img{
+    width: 2%;
+}
+.apt_footer_contato{
+    color: var(--corsecundaria);
+    text-decoration: none;
+    
+}
+
