@@ -162,6 +162,9 @@ footer{
     .cabecalho{
         padding: 10%;
     }
+    .cabecalho_curriculo{
+        padding: 5%;
+    }
     .cabecalho_menu{
         justify-content: center;
     }
@@ -169,8 +172,15 @@ footer{
         flex-direction: column-reverse;
         padding: 5%;
     }
+    .apt_curriculo{
+        padding: 5%;
+    }
     .apt_cont{
         width: auto;
     }
+    .apt_link{
+        justify-content: center;
+    }
+
 }
 
