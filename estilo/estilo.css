@@ -148,6 +148,7 @@ footer{
     color: var(--corprimaria);
     background-color: var(--corterciaria);
     gap: 10px;
+    font-size: 50%;
 }
 .apt_footer_img{
     width: 2%;
@@ -159,6 +160,9 @@ footer{
 }
 
 @media (max-width:1110px){
+    .cabecalho_curriculo {
+        padding: 20px;
+    }
     .cabecalho{
         padding: 10%;
     }
@@ -168,12 +172,16 @@ footer{
     .cabecalho_menu{
         justify-content: center;
     }
+    .apt_curriculo{
+        padding: 5%;
+    }
     .apt{
+      
         flex-direction: column-reverse;
         padding: 5%;
     }
     .apt_curriculo{
-        padding: 5%;
+        padding: 5% ;
     }
     .apt_cont{
         width: auto;
