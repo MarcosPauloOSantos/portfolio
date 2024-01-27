@@ -41,6 +41,10 @@ body{
 
 
 }
+.cabecalho_menu_link:hover{
+    color: var(--corterciaria);
+
+}
 .apt_curriculo{
     padding: 5% 15%;
     display: grid;
@@ -126,7 +130,7 @@ body{
     font-weight: 600;
 
 }
-.apt_links_link:hover {
+.apt_links_navegacao:hover {
     background-color:var(--corhover);
 }
 
